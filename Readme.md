@@ -32,7 +32,7 @@ Advanced interpolation, shade and material settings.
 | Qt        |   5.12.3   |   MSVC 2017   |
 | CMake        |   3.14.4   |   GUI   |
 
-**CMake settings for compiling VTK **
+**CMake settings for compiling VTK **  
 ```shell
 set(VTK_DIR "C:/Users/chwangteng/Downloads/vtkqt8.0.1/vtk-v8.0.1-build" CACHE PATH "VTK directory") 
 set(QT_QMAKE_EXECUTABLE "C:/Qt/Qt5.12.3/5.12.3/msvc2017_64/bin/qmake.exe" CACHE PATH "Qt qmake.exe") 
@@ -46,8 +46,8 @@ set(Module_vtkRenderingQt ON CACHE BOOL "Module_vtkRenderingQt")
 set(BUILD_TESTING OFF CACHE BOOL "BUILD_TESTING") 
 set(VTK_RENDERING_BACKEND_DEFAULT "OpenGL")
 ```
-**CMake settings for compiling the project **
-volume-renderer/VolumeRenderer/CMakeLists.txt
+**CMake settings for compiling the project **  
+volume-renderer/VolumeRenderer/CMakeLists.txt  
 ```shell
 set(VTK_DIR "C:/Users/chwangteng/Downloads/vtkqt8.0.1/vtk-v8.0.1-build" CACHE PATH "VTK directory")
 set(QT_QMAKE_EXECUTABLE "C:/Qt/Qt5.12.3/5.12.3/msvc2017_64/bin/qmake.exe" CACHE PATH "Qt qmake.exe")
