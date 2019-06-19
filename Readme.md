@@ -4,7 +4,7 @@
 Volume Renderer is a volume rendering program based on VTK, CTK and Qt.
 
 **File support**
-- slc formate
+- slc format
 
 **Renderer Support( Hot switch ）**
 - vtkSlicerGPURayCastVolumeMapper( from Slicer https://www.slicer.org/ )
