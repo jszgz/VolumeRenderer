@@ -6,7 +6,7 @@ Volume Renderer is a volume rendering program based on VTK, CTK and Qt.
 **File support**
 - slc format
 
-**Renderer Support( Hot switch ）**
+**Renderer Support (Hot switch）**
 - vtkSlicerGPURayCastVolumeMapper( from Slicer https://www.slicer.org/ )
 - vtkGPUVolumeRayCastMapper
 - vtkSmartVolumeMapper (Default. Recommended. Microsoft Remote Desktop can downgrade OpenGL to 1.1 and it can switch to CPU)
@@ -25,7 +25,7 @@ Volume Renderer is a volume rendering program based on VTK, CTK and Qt.
 
 Advanced interpolation, shade and material settings.
 
-## Installation( Optional )
+## Installation (Optional)
 | Item        | Version   |  Remark   |
 | --------   | -----:  | :----:  |
 | VTK      | 8.0.1   |        |
@@ -54,8 +54,8 @@ set(QT_QMAKE_EXECUTABLE "C:/Qt/Qt5.12.3/5.12.3/msvc2017_64/bin/qmake.exe" CACHE 
 set(CMAKE_PREFIX_PATH "C:/Qt/Qt5.12.3/5.12.3/msvc2017_64" CACHE PATH "Qt directory")
 ```
 ## RUN
-1. Open executable/VolumeRenderer/VolumeRenderer.exe in Windows( 64bit ).
-2. Click "Open" and select a slc file( vm_foot.slc).
+1. Open executable/VolumeRenderer/VolumeRenderer.exe in Windows (64bit).
+2. Click "Open" and select a slc file (vm_foot.slc).
 3. Have fun.
 
 ## TODO
