@@ -53,7 +53,7 @@ set(VTK_DIR "C:/Users/chwangteng/Downloads/vtkqt8.0.1/vtk-v8.0.1-build" CACHE PA
 set(QT_QMAKE_EXECUTABLE "C:/Qt/Qt5.12.3/5.12.3/msvc2017_64/bin/qmake.exe" CACHE PATH "Qt qmake.exe")
 set(CMAKE_PREFIX_PATH "C:/Qt/Qt5.12.3/5.12.3/msvc2017_64" CACHE PATH "Qt directory")
 ```
-## RUN
+## RUN (Not published)  
 1. Open executable/VolumeRenderer/VolumeRenderer.exe in Windows (64bit).
 2. Click "Open" and select a slc file (vm_foot.slc).
 3. Have fun.
