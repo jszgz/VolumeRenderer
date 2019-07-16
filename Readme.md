@@ -25,7 +25,7 @@ Volume Renderer is a volume rendering program based on VTK, CTK and Qt.
 
 Advanced interpolation, shade and material settings.
 
-## Installation (Optional)
+## Compilation (Optional)
 | Item        | Version   |  Remark   |
 | --------   | -----:  | :----:  |
 | VTK      | 8.0.1   |        |
