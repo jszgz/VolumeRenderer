@@ -3,6 +3,12 @@
 ## Introduction
 Volume Renderer is a volume rendering program based on VTK, CTK and Qt.
 
+## Improvements in this repository（Compare to [volume-renderer](https://bitbucket.org/lsz/volume-renderer/src/default/)）
+- Interaction: Realtime adjustment, for Listener(Observer) on the rightside tool box. 
+- Renderer: SmartRenderer support.
+- Format: slc format support.
+- UI: FPS calculation.
+
 **File support**
 - slc format
 
@@ -74,6 +80,3 @@ set(CMAKE_PREFIX_PATH "C:/Qt/Qt5.12.3/5.12.3/msvc2017_64" CACHE PATH "Qt directo
 [ctkTransferFunctionWidget](http://www.commontk.org/index.php/Documentation/ctkTransferFunctionWidget)  
 [vtkVolumeProperty Class Reference](https://vtk.org/doc/nightly/html/classvtkVolumeProperty.html)  
 [volume-renderer](https://bitbucket.org/lsz/volume-renderer/src/default/)  
-
-## Improvements in this repository（Compare to [volume-renderer](https://bitbucket.org/lsz/volume-renderer/src/default/)）
-- Listener(Observer) on the rightside tool box 
