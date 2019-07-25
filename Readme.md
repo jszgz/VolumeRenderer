@@ -3,7 +3,7 @@
 ## Introduction
 Volume Renderer is a volume rendering program based on VTK, CTK and Qt.
 
-## Improvements in this repository（Compare to [volume-renderer](https://bitbucket.org/lsz/volume-renderer/src/default/)）
+**Improvements in this repository**（Compare to [volume-renderer](https://bitbucket.org/lsz/volume-renderer/src/default/)）
 - Interaction: Realtime adjustment, for Listener(Observer) on the rightside tool box. 
 - Renderer: SmartRenderer support.
 - Format: slc format support.
